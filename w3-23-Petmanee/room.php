@@ -90,7 +90,10 @@
                 <td><?php echo $room["bathtub"]; ?></td>
                 <td class="price-tag"><?php echo number_format($room["price"]); ?> บาท</td>
             </tr>
-            <?php } ?>
+            <?php 
+            } 
+            
+            ?>
         </tbody>
     </table>
 </div>
